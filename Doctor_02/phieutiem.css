@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(57, 57, 57);
+}
+.phieu{
+    margin: 0 auto;
+    width: 594px;
+    height: 1110px;
+    background-color: white;
+}
+.khung{
+    position: relative;
+    top: 10px;
+    width: 554px;
+    margin-left: 20px;
+}
+.QRconghoaxahoi{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.QR{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.conghoaxahoi{
+    margin-left: 60px;
+    font-size: 15px;
+    text-align: center;
+}
+.giayxac{
+    font-size: 16px;
+}
+.gachchan{
+    width: 40%;
+    background-color: black;
+    align-items: center;
+}
+.thongtin{
+    width: 100%;
+}
+.bangdongdau{
+    border: 1px solid black;
+    width: 100%;
+}
+.lieucoban{
+    text-align: center;
+}
+.kyten{
+    text-align: center;
+}
+/* -------------------------------------chuc nang------------------------------ */
+.chucnang{
+    position: fixed;
+    top: 9px;
+    right: 18%;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.chucnang ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 45px;
+    align-items: center;
+    margin-left: 2.5px;
+    margin-top: 3.5px;
+}
+.hoanthanh{
+    position: fixed;
+    top: 70px;
+    right: 18%;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.hoanthanh ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 45px;
+    align-items: center;
+    margin-left: 2.5px;
+    margin-top: 3.5px;
+}

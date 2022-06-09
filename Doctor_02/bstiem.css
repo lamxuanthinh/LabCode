@@ -1,0 +1,1234 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html {
+    width: 99.5%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(bottom, #2c3d4f, #19bc9c);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 210% 120%;
+
+}
+
+.xacthuctiemchung {
+    margin-top: 80px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+/*-------------------------- logo --------------------------*/
+/* NAV BAR CSS */
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #19bc9c;
+    text-align: center;
+    color: #fff;
+    padding-top: 1%;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 5%;
+    padding-top: 10px;
+    transition: all ease-in-out .2s;
+    border-radius: 4px;
+}
+.chudx{
+
+}
+.btn:hover{
+    background-color: #2c3d4f;
+}
+.nav__line {
+    width: 100%;
+    height: 1px;
+    margin: 5% 0;
+    background-color: rgb(157, 157, 157);
+}
+.account {
+    margin-right: 5%;
+}
+
+.nav__title {
+    color: #fff;
+}
+
+.nav__logo {
+    display: flex;
+    width: 10%;
+}
+
+
+.account img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+.nav__function,.nav__logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+.nav__wrapper a {
+    margin: 0 0.5%;
+    padding: 10px 12px;
+    border-radius: 100rem;
+    text-align: center;
+}
+.nav__account-wrapper{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 480px;
+    transform: scale(0);
+    transition: all ease-in-out .2s;
+}
+#nav__avt:hover .nav__account-wrapper {
+    transform: scale(1);
+    transition: all ease-in-out .2s;
+}
+
+.nav__account-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100rem;
+}
+.nav__account-img {
+    margin: 5% 0;
+
+}
+.nav__account-email {
+    margin: 2% 0;
+    font-size: 12px;
+    color: gray;
+}
+.nav__account-email1 {
+    margin: 2% 0 2% -40px;
+    font-size: 12px;
+    color: gray;
+}
+.nav__account-manager {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 2% 0;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 50px;
+    color: gray;
+}
+
+.nav__account-desc {
+
+}
+
+.nav__account-diffirent {
+    display: flex;
+}
+/* THE END NAV BAR CSS */
+
+/* ----------------------------------------------------- */
+
+/* bang 1 */
+.khung {
+    position: relative;
+    width: 60%;
+    top:30px;
+    height: 36em;
+    margin-left: 20%;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition: margin-left 0.5s;
+}
+
+.khung.active {
+    margin-left: 4%;
+}
+
+
+.bangthongtin {
+    padding-top: 30px;
+    position: absolute;
+    left: 0.25%;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tieude {
+    background-color: #19bc9c;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.thongtinnguoitiem {
+    width: 49%;
+    margin-right: 1%;
+    font-size: 100%;
+    color: #000000;
+}
+
+.muccannhap {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    background: #e0e0e0;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 13px 0px;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.formarea {
+    width: 100%;
+    height: 15px;
+    background: #e0e0e0;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 0px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+    resize: none;
+    outline: none;
+}
+
+
+/* bang mui tiem */
+.dadctiemvacxin {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.somui {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thongtintiem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.thongtintiem1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.loaivaccine {
+    float: left;
+    width: 33.3%;
+    border-radius: 5px;
+}
+
+.loaivaccine1 {
+    float: left;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.nhapvaccine {
+    width: 63%;
+    border-top: #0E1119;
+    border-left: #0E1119;
+    border-right: #0E1119;
+    outline: none;
+    border-color: #939393;
+}
+
+.nhapvaccine1 {
+    width: 63%;
+    border-top: #0E1119;
+    border-left: #0E1119;
+    border-right: #0E1119;
+    outline: none;
+    outline: none;
+}
+
+.mui1 {
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.mui2 {
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.mui3 {
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-radius: 3px;
+}
+
+/* Mui hien tai */
+.khungtiem {
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.muihientai {
+    margin-top: 3%;
+    font-size: 20px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.muimoi {
+    width: 50%;
+}
+
+.ngaytiemmoi {
+    margin-top: 5px;
+    margin-top: 1%;
+    float: left;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.nhapmoi {
+    margin-top: 1%;
+    width: 70%;
+    padding: 2px 0;
+    border-radius: 5px;
+    border-top: #484848;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.1);
+}
+
+.muimoi1 {
+    width: 50%;
+}
+
+.ngaytiemmoi1 {
+    margin-top: 5px;
+    margin-top: 1%;
+    float: left;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.nhapmoi1 {
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 70%;
+    padding: 2px 0;
+    border-radius: 5px;
+    border-top: #484848;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.1);
+}
+.fa-solid .fa-syringe{
+    font-size: 200px;
+}
+/* nut */
+#myBtn {
+    background-color: #19bc9c;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow:
+        0px 0px 0px 5px rgba(126, 255, 195, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    border-radius: 5px;
+    border: none;
+}
+
+#myBtn:hover {
+    background-color: #2c3d4f;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #2c3d4f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tieudeinphieu {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #19bc9c;
+    color: white;
+    font-size: 22px;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.cauhoi {
+    text-align: center;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.chonco {
+    position: relative;
+    color: #19bc9c;
+    font-size: 20px;
+    border: 2px solid #19bc9c;
+    border-radius: 5px;
+    padding: 5px 51px;
+    display: flex;
+    align-items: center;
+}
+
+.chonko {
+    position: relative;
+    color: #19bc9c;
+    font-size: 20px;
+    border: 2px solid #19bc9c;
+    border-radius: 5px;
+    padding: 5px 31px;
+    display: flex;
+    align-items: center;
+}
+
+.chonco:before,
+.chonko::before {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border: 3px solid #19bc9c;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #19bc9c;
+    color: white;
+}
+
+input[type="radio"]:checked+label:before {
+    height: 10px;
+    width: 10px;
+    border: 6px solid white;
+    background-color: #19bc9c;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.yes {
+    margin: 0 auto;
+    margin-right: 2%;
+}
+
+.no {
+    margin: 0 auto;
+    margin-left: 2%;
+}
+
+/*----------------------------------------------- bang 2 --------------------------------------------*/
+
+.navigation {
+    position: fixed;
+    top: 154px;
+    left: 110%;
+    bottom: 20px;
+    width: 0px;
+    height: 76%;
+    border-radius: 10px;
+    box-sizing: initial;
+    border-left: 5px solid #ffffff;
+    background: #ffffff;
+    transition: width 0.5s;
+    overflow-x: hidden;
+    border-radius: 20px;
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.navigation.active {
+    background: #ffffff;
+    width: 30%;
+    right: 10px;
+    left: auto;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navigation ul li.active {
+    background: #19bc9c;
+}
+
+.navigation ul li b:nth-child(1) {
+    position: absolute;
+    top: -20px;
+    height: 20px;
+    width: 100%;
+    background: #19bc9c;
+    display: none;
+}
+
+.navigation ul li b:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    background: #ffffff;
+}
+
+.navigation ul li b:nth-child(2) {
+    position: absolute;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+    background: #19bc9c;
+    display: none;
+}
+
+.navigation ul li b:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    background: #ffffff;
+}
+
+.navigation ul li.active b:nth-child(1),
+.navigation ul li.active b:nth-child(2) {
+    display: block;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navigation ul li.active a {
+    color: #000000;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+}
+
+.navigation ul li .icon ion-icon {
+    font-size: 1.5em;
+}
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+    text-align: center;
+}
+.fa-solid .fa-circle-1{
+    background-color: #000000;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
+.toggle {
+    position: fixed;
+    top: 166px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-left: 8%;
+    font-size: 30px;
+}
+.title {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 15%;
+}
+
+.toggle.active {
+    background: none;
+    
+}
+
+.toggle ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    background-color: #fff;
+    font-size: 34px;
+}
+
+.toggle ion-icon.open,
+.toggle.active ion-icon.close{
+    display: block;
+}
+
+.toggle ion-icon.close,
+.toggle.active ion-icon.open {
+    display: none;
+}
+
+
+.list1 {
+    background-color: #ffffff;
+    font-size: 150%;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+/* -----------------------------------xoa-------------------------------------- */
+.xoa {
+    position: fixed;
+    top: 287px;
+    right: 4%;
+    display: none;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.xoa ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 31px;
+    right: 20%;
+}
+
+.list:hover .xoa {
+    display: block;
+}
+
+/* ---------------------------------ngay tiem-------------------------------------- */
+.ngayhientai {
+    position: fixed;
+    top: 249px;
+    right: 30%;
+    display: none;
+    width: 144px;
+    height: 5%;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #19bc9c;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.ngay{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+.list:hover .ngayhientai {
+    display: block;
+}
+/* --------------------------------tim kiem------------------------------------------- */
+.timkiem {
+    position: fixed;
+    top: 172px;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    transition: right 0.5s;
+}
+
+.timkiem.active {
+    right: 26%;
+}
+
+.timkiem ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 34px;
+}
+
+.timkiem ion-icon.motimkiem {
+    display: none;
+}
+
+.timkiem.active ion-icon.motimkiem {
+    display: block;
+}
+
+.search {
+    position: fixed;
+    top: 172px;
+    right: -50%;
+    width: 0;
+    transition: width 0.8s;
+    box-sizing: initial;
+}
+
+.search.active {
+    right: 6%;
+    width: 20%;
+}
+
+.noitim {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-bottom: 3px solid #19bc9c;
+    outline: none;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media screen and (max-width: 1320px) {
+    body {
+        background-size: 200% 120%;
+    }
+
+    .nhapmoi1 {
+        width: 60%;
+    }
+
+    .ngaytiemmoi1 {
+        width: 35%;
+    }
+
+    .list {
+        font-size: 80%;
+    }
+
+    .list1 {
+        font-size: 130%;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    .thongtintiem {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .thongtintiem1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .khung {
+        height: 45em;
+    }
+
+    body {
+        height: 100%;
+        background-image: linear-gradient(#19bc9c, #2c3d4f);
+        background-size: 200% 130%;
+    }
+
+    .muimoi {
+        width: 100%;
+    }
+
+    .nhapmoi1 {
+        width: 71%;
+    }
+
+    .ngaytiemmoi1 {
+        width: 22%;
+    }
+
+    .list {
+        font-size: 63%;
+    }
+
+    .list1 {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .thongtinnguoitiem {
+        width: 100%;
+    }
+
+    .khung {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 15%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .thongtinnguoitiem {
+        width: 100%;
+    }
+
+    .khung {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 13%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .khung {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+    .ngaytiemmoi {
+        width: 35%;
+    }
+
+    .ngaytiemmoi1 {
+        width: 32%;
+    }
+
+    .nhapmoi {
+        width: 60%;
+    }
+
+    .nhapmoi1 {
+        width: 61%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 10%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    body {
+        background-size: 200% 160%;
+    }
+
+    .modal {
+        width: 730px;
+    }
+
+    .modal-content {
+        margin: 0 10%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 8%;
+
+    }
+
+    .list1 {
+        font-size: 80%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .khung {
+        height: 60em;
+    }
+
+    body {
+        background-size: 200% 170%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 6%;
+
+    }
+
+    .list1 {
+        font-size: 68%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .khung {
+        height: 69em;
+    }
+
+    body {
+        background-size: 200% 190%;
+    }
+
+    .loaivaccine {
+        width: 100%;
+    }
+
+    .loaivaccine1 {
+        width: 100%;
+    }
+
+    .nhapvaccine {
+        width: 98%;
+    }
+
+    .nhapvaccine1 {
+        width: 98%;
+    }
+
+    .ngaytiemmoi {
+        width: 100%;
+    }
+
+    .ngaytiemmoi1 {
+        width: 100%;
+    }
+
+    .nhapmoi {
+        width: 98%;
+    }
+
+    .nhapmoi1 {
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    .list {
+        font-size: 45%;
+    }
+
+    .title {
+        margin-left: 3%;
+
+    }
+
+    .list1 {
+        font-size: 58%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .khung {
+        height: 71em;
+    }
+
+    body {
+        background-size: 200% 190%;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .khung {
+        height: 72em;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .khung {
+        height: 72em;
+        margin-left: 0%;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+
+    .loaivaccine {
+        width: 100%;
+    }
+
+    .loaivaccine1 {
+        width: 100%;
+    }
+
+    .nhapvaccine {
+        width: 98%;
+    }
+
+    .nhapvaccine1 {
+        width: 98%;
+    }
+
+    .ngaytiemmoi {
+        width: 100%;
+    }
+
+    .ngaytiemmoi1 {
+        width: 100%;
+    }
+
+    .nhapmoi {
+        width: 98%;
+    }
+
+    .nhapmoi1 {
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    .list {
+        font-size: 145%;
+    }
+
+    .title {
+        margin-left: 3%;
+
+    }
+
+    .list1 {
+        font-size: 50%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .khung {
+        height: 73em;
+        margin-left: 0%;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+}

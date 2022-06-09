@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    font-family: sans-serif;
+    font-weight: 20;
+    line-height: 1.10em;
+    color: white;
+    background-image: linear-gradient(#19bc9c, #2c3d4f);
+    /* width: 100%; 
+    max-width: 1024px; */
+    position: relative;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 210% 120%;
+}
+/* ----------------------------nav--------------------------------------------------- */
+/* NAV BAR CSS */
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #19bc9c;
+    text-align: center;
+    color: #fff;
+    padding-top: 1%;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 5%;
+    padding-top: 10px;
+    transition: all ease-in-out .2s;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #2c3d4f;
+}
+.nav__line {
+    width: 100%;
+    height: 1px;
+    margin: 5% 0;
+    background-color: rgb(157, 157, 157);
+}
+.account {
+    margin-right: 5%;
+}
+
+.nav__title {
+    color: #fff;
+}
+
+.nav__logo {
+    display: flex;
+    width: 10%;
+}
+
+
+.account img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+.nav__function,.nav__logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+.nav__wrapper a {
+    margin: 0 0.5%;
+    padding: 10px 12px;
+    border-radius: 100rem;
+    text-align: center;
+}
+.nav__account-wrapper{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 480px;
+    transform: scale(0);
+    transition: all ease-in-out .2s;
+}
+#nav__avt:hover .nav__account-wrapper {
+    transform: scale(1);
+    transition: all ease-in-out .2s;
+}
+
+.nav__account-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100rem;
+}
+.nav__account-img {
+    margin: 5% 0;
+
+}
+.nav__account-email {
+    margin: 2% 0;
+    font-size: 12px;
+    color: gray;
+}
+.nav__account-email1 {
+    margin: 2% 0 2% -40px;
+    font-size: 12px;
+    color: gray;
+}
+.nav__account-manager {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 2% 0;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 50px;
+    color: gray;
+}
+
+.nav__account-diffirent {
+    display: flex;
+}
+/* THE END NAV BAR CSS */
+
+.Sangloctiemchung {
+    margin-top: 80px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+/* ------------------------------------bang 1------------------------------------ */
+
+
+.bangsangloc {
+    border: 1px solid white;
+    position: relative;
+    width: 60%;
+    top:45px;
+    height: 36em;
+    margin-left: 20%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    font-size: 15px;
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition: margin-left 0.5s;
+}
+.bangsangloc.active{
+    margin-left: 4%;
+}
+.daubang{
+    
+    background-color: #19bc9c;
+}
+.tieude{
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.noidung {
+    margin-left: 90%;
+    padding-left: 1em;
+    width: 80%;
+}
+.coko{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Ko {
+    margin-left: 30px;
+
+}
+
+.co {
+    margin-left: 10px;
+
+
+}
+
+.enter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.nhap{
+    width: 70%;
+}
+/* ------------------ */
+.nhietdo{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nhapnhietdo {
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 60%; 
+}
+.đvnhietdo {
+    width: 35%;
+}
+/* -------------------- */
+.Mach {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nhapMach {
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 60%; 
+}
+
+.đvmach {
+    width: 30%;
+}
+/* ------------------- */
+.Huyetap{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nhaphuyetap {
+    border-radius: 10px;
+    width: 60%; 
+}
+.đvhuyetap {
+    width: 35%;
+}
+/* ---------------------- */
+.nhiptho {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.đvnhiptho {
+    width: 35%;
+}
+.nhapnhiptho {
+    border-radius: 10px;
+    width: 60%; 
+}
+/* ------------------------ */
+#hoanthanh {
+    background-color: #19bc9c;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow:
+        0px 0px 0px 5px rgba(126, 255, 195, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    border-radius: 5px;
+    border: none;
+}
+
+#hoanthanh:hover {
+    background-color: #2c3d4f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*----------------------------------------------- bang 2 --------------------------------------------*/
+
+.navigation {
+    position: fixed;
+    top: 142px;
+    left: 110%;
+    bottom: 20px;
+    width: 0px;
+    height: 72%;
+    border-radius: 10px;
+    box-sizing: initial;
+    border-left: 5px solid #ffffff;
+    background: #ffffff;
+    transition: width 0.5s;
+    overflow-x: hidden;
+    border-radius: 20px;
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.navigation.active {
+    background: #ffffff;
+    width: 30%;
+    right: 10px;
+    left: auto;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navigation ul li.active {
+    background: #19bc9c;
+}
+
+.navigation ul li b:nth-child(1) {
+    position: absolute;
+    top: -20px;
+    height: 20px;
+    width: 100%;
+    background: #19bc9c;
+    display: none;
+}
+
+.navigation ul li b:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    background: #ffffff;
+}
+
+.navigation ul li b:nth-child(2) {
+    position: absolute;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+    background: #19bc9c;
+    display: none;
+}
+
+.navigation ul li b:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    background: #ffffff;
+}
+
+.navigation ul li.active b:nth-child(1),
+.navigation ul li.active b:nth-child(2) {
+    display: block;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navigation ul li.active a {
+    color: #000000;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+}
+
+.navigation ul li .icon ion-icon {
+    font-size: 1.5em;
+}
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+    text-align: center;
+}
+.fa-solid .fa-circle-1{
+    background-color: #000000;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
+.toggle {
+    position: fixed;
+    top: 154px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-left: 8%;
+    font-size: 30px;
+}
+.title {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 15%;
+}
+
+.toggle.active {
+    background: none;
+    
+}
+
+.toggle ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    background-color: #fff;
+    font-size: 34px;
+}
+
+.toggle ion-icon.open,
+.toggle.active ion-icon.close{
+    display: block;
+}
+
+.toggle ion-icon.close,
+.toggle.active ion-icon.open {
+    display: none;
+}
+
+
+.list1 {
+    background-color: #ffffff;
+    font-size: 150%;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+/* -----------------------------------xoa-------------------------------------- */
+.xoa {
+    position: fixed;
+    top: 275px;
+    right: 4%;
+    display: none;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.xoa ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 31px;
+    right: 20%;
+}
+
+.list:hover .xoa {
+    display: block;
+}
+
+/* --------------------------------tim kiem------------------------------------------- */
+.timkiem {
+    position: fixed;
+    top: 158px;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    transition: right 0.5s;
+}
+
+.timkiem.active {
+    right: 26%;
+}
+
+.timkiem ion-icon {
+    position: absolute;
+    color: #19bc9c;
+    font-size: 34px;
+}
+
+.timkiem ion-icon.motimkiem {
+    display: none;
+}
+
+.timkiem.active ion-icon.motimkiem {
+    display: block;
+}
+
+.search {
+    position: fixed;
+    top: 158px;
+    right: -50%;
+    width: 0;
+    transition: width 0.8s;
+    box-sizing: initial;
+}
+
+.search.active {
+    right: 6%;
+    width: 20%;
+}
+
+.noitim {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-bottom: 3px solid #19bc9c;
+    outline: none;
+    margin-right: 16px;
+    font-size: 17px;
+}
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------------thong tin ca nhan -------------------------------------- */
+.thongtincanhan {
+    position: fixed;
+    top: 226px;
+    right: 30%;
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow:
+        0px 0px 0px 5px rgba(255, 255, 255, 0.4),
+        0px 4px 20px rgba(0, 0, 0, 0.33);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #19bc9c;
+    width: 12%;
+    height: 8%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.list:hover .thongtincanhan {
+    display: block;
+}
+/* ----------------------------------------------responsive----------------------------- */
+/* ---------------------------------------------------------------------------------- */
+@media screen and (max-width: 1340px){
+    .no{
+        width: 100%;
+    }
+    .Ko{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1320px) {
+    body {
+        background-size: 200% 120%;
+    }
+
+
+    .list {
+        font-size: 80%;
+    }
+
+    .list1 {
+        font-size: 130%;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+
+
+    .bangsangloc {
+        height: 45em;
+    }
+
+    body {
+        height: 100%;
+        background-image: linear-gradient(#19bc9c, #2c3d4f);
+        background-size: 200% 130%;
+    }
+
+
+    .ngaytiemmoi1 {
+        width: 22%;
+    }
+
+    .list {
+        font-size: 63%;
+    }
+
+    .list1 {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+   
+
+    .bangsangloc {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 15%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .nhap{
+        width: 100%;
+    }
+    .nhapMach {
+        margin-left: 0%;
+    }
+    .bangsangloc {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 13%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    
+    .bangsangloc {
+        height: 59em;
+    }
+
+    body {
+        background-size: 200% 160%;
+    }
+
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 10%;
+
+    }
+
+    .list1 {
+        font-size: 90%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    body {
+        background-size: 200% 160%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 8%;
+
+    }
+
+    .list1 {
+        font-size: 80%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .bangsangloc {
+        height: 60em;
+    }
+
+    body {
+        background-size: 200% 170%;
+    }
+
+    .list {
+        font-size: 50%;
+    }
+
+    .title {
+        margin-left: 6%;
+
+    }
+
+    .list1 {
+        font-size: 68%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .bangsangloc {
+        height: 69em;
+    }
+
+    body {
+        background-size: 200% 190%;
+    }
+
+    .list {
+        font-size: 45%;
+    }
+
+    .title {
+        margin-left: 3%;
+
+    }
+
+    .list1 {
+        font-size: 58%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .bangsangloc {
+        height: 71em;
+    }
+
+    body {
+        background-size: 200% 190%;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .bangsangloc {
+        height: 72em;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bangsangloc {
+        height: 72em;
+        margin-left: 0%;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+
+    .list {
+        font-size: 145%;
+    }
+
+    .title {
+        margin-left: 3%;
+
+    }
+
+    .list1 {
+        font-size: 50%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .bangsangloc {
+        height: 73em;
+        margin-left: 0%;
+    }
+
+    body {
+        background-size: 200% 210%;
+    }
+}
